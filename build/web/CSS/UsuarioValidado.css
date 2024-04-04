@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-feb-2024, 18:41:15
+    Author     : David
+*/
+
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #007bff;
+            margin-top: 20px;
+        }
+
+        h3 {
+            color: #555;
+            margin-top: 30px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a, button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        a:hover, button:hover {
+            background-color: #0056b3;
+        }
+
+        .equipo-logo {
+            max-width: 200px; /* Ajusta el ancho máximo de la imagen */
+            height: auto; /* Mantiene la proporción de la imagen */
+            margin-top: 20px;
+        }
+
+        .datos-lista {
+            text-align: left;
+            margin: 0 auto;
+            max-width: 400px; /* Ajusta el ancho máximo de la lista */
+        }
